@@ -3,37 +3,18 @@ body{
 }
 .shapka{
 	width: 100%;
-	height: 290px;
-	background-image: url(4.png);
-	background-size: cover;
-	margin: 0 auto;
+	height: auto;
+	content: url(4.png);
 }
-.left{
-	position: absolute;
-	margin-top:7%;
-	margin-left:30%;
-	margin-right: 70%;
-	font-family: Helvetica;
-	color: #fff;
-	font-size: 400%;
-}
-.right{
-	position: absolute;
-	margin-top:7%;
-	margin-left:53%;
-	margin-right: 42%;
-	font-family: Helvetica;
-	color: #fff;
-	font-size: 400%;
-}
-.knopki
+.btnContainer
 {
+	text-align: center;
 	display: block;
 	margin: 0 auto;
 }
 .btn 
 {
-	width: 24.796%;
+	width: 18%;
 	border: none;
 	outline: none;
 	padding: 16px 14px;
@@ -46,19 +27,20 @@ body{
 	font-family: "Lucida Console";
 	font-size: 150%;
 }
-.container{
+.filterDivContainer{
 	margin-top: 10px;
 }
 .filterDiv {
 	float: left;
 	background-color: #2196F3;
 	color: #ffffff;
-	width: 285px;
+	width: 280px;
 	height: 155px;
 	line-height: 150px;
 	text-align: center;
-	margin: 2px;
+	margin: 6px;
 	display: none; /* Hidden by default */
+	border-radius: 10px;
 }
 .a{
 	background-image: url(alisa.jpg);
@@ -94,22 +76,21 @@ body{
 
 /* Style the buttons */
 .btnn {
-	width: 13.25%;
 	margin-top:10px;
 	margin-bottom:10px;
 	margin-left:5px; 
 	margin-right:5px;
 	border: none;
 	outline: none;
-	padding: 12px 16px;
-	background-color: #d2d3d5;
+	padding: 6px 8px;
+	background-color: #aad2d3d5;
 	cursor: pointer;
 	border-radius: 100px;
 }
 
 /* Add a light grey background on mouse-over */
 .btn:hover{
-	border-bottom: 1px solid #ccc;
+	border-bottom: 0.5px solid #ccc;
 }
 .btn.active{
 	background-color: #232b38;
@@ -125,7 +106,7 @@ body{
 }
 .textt
 {
-	color: #000000;
+	color: #08121a;
 	font-family: "Lucida Console";
 	font-size: 100%;
 	font-weight:bold;
@@ -138,11 +119,59 @@ body{
 	font-size: 110%;
 	text-shadow: 3px 3px 3px #000;
 }
+.filterDiv:hover{
+	box-shadow: 0 0 10px rgba(256,256,256,0.5);
+	cursor: pointer;
+}
+.btnnContainer{
+	margin-top: 10px;
+	text-align: center;
+}
+.contactsContainer{
+	display: flex;
+	justify-content:center; 
+	text-align: center;
+}
+/*.IMG{
+	height: 400px;
+	float:left;
+	margin-top: 50px;
+}*/
+.TEXT{
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 150%;
+	margin-top: 90px;
+	padding-left: 50px;
 
 }
-
-
-
-{
-
+.img{
+	
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 0 10px rgba(256,256,256,0.5);
+	border-radius: 10px;
+	margin-top: 20px;
 }
+.OBZOR{
+	margin-top: 20px;
+	display: flex;
+	justify-content:center; 
+	text-align: center;
+}
+.alisaotztxt{
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 150%;
+	margin-top: 40px;
+	margin-top: 150px;
+	padding-left: 20px;
+}
+
+.alisaotzv{
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+

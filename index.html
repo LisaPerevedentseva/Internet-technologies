@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quest Guard</title>
+	<title>Quest Guard - Квесты</title>
 	<meta name="keywords" content="quest, развлечения, иммерсивный театр, перформанс">
 	<meta name= "description" content="Обзоры на квесты и перформансы в Москве">
 	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 	<header class="shapka">
-		<div class="left">QUEST</div>
-		<div class="right">GUARD</div>
 	</header>
-	<div class="Knopki">
+	<div class="btnContainer">
 		<button class="btn active" onclick="location.href='index.html'"> <font class=text> Квесты </font></button>
-		<button class="btn"> <font class=text> Перформансы </font></button>
-		<button class="btn" onclick="location.href='ONas.html'"> <font class=text> О нас </font></button>
-		<button class="btn"> <font class=text> Контакты </font></button>
+		<button class="btn" onclick="location.href='Perf.html'"> <font class=text> Перформансы </font></button>
+		<button class="btn" onclick="location.href='ONas.html'"> <font class=text> Выбор редакции </font></button>
+		<button class="btn" onclick="location.href='Contacts.html'"> <font class=text> Контакты </font></button>
 	</div>
 	<div></div>
-	<div id="myBtnContainer">
+	<div id="myBtnContainer" class="btnnContainer">
 		<button class="btnn" onclick="activeFunction(); filterSelection('all')"><font class=textt> Показать все</font></button>
 		<button class="btnn" onclick="activeFunction(); filterSelection('funny')"> <font class=textt>Весёлые</font></button>
 		<button class="btnn" onclick="activeFunction(); filterSelection('horrible')"> <font class=textt>Страшные</font></button>
@@ -27,8 +25,8 @@
 		<button class="btnn" onclick="activeFunction(); filterSelection('easy')"> <font class=textt>Простые</font></button>
 		<button class="btnn" onclick="activeFunction(); filterSelection('hard')"> <font class=textt>Сложные</font></button>
 	</div>
-	<div class="container">
-		<div class="filterDiv a funny hard"><font class=textquest>Алиса в стране кошмаров</font></div>
+	<div class="filterDivContainer">
+		<div class="filterDiv a funny hard" onclick="location.href='Alisa.html'"><font class=textquest>Алиса в стране кошмаров</font></div>
 		<div class="filterDiv b family hard  "><font class=textquest>Стимпанк-дирижабль</font></div>
 		<div class="filterDiv c hard energetic"><font class=textquest>Академия Гудини</font></div>
 		<div class="filterDiv d horrible easy"><font class=textquest>Секретный пациент</font></div>
