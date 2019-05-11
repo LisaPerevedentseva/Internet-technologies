@@ -159,7 +159,7 @@ body{
 	justify-content:center; 
 	text-align: center;
 }
-.alisaotztxt{
+.otztxt{
 	color: #ffffff;
 	font-family: "Century Gothic";
 	font-size: 150%;
@@ -168,10 +168,15 @@ body{
 	padding-left: 20px;
 }
 
-.alisaotzv{
+.otzv{
 	width: 400px;
 	height: 300px;
 	border-radius: 10px;
 	margin-top: 20px;
+}
+.vibortxt{
+	color: #ffffff;
+	font-family: "Century Gothic";
+	font-size: 150%;
 }
 
